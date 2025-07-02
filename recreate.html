@@ -1,0 +1,100 @@
+<!-- THIS PAGE IS CREATE ONLY FOR PRACTICE -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>recreate</title>
+    <link rel="stylesheet" href="recreate.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet">
+
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'montserrat';
+    /* color: #fff */
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+        .main{
+            position: relative;  
+            overflow-x: auto;
+            overflow-y: hidden;
+            white-space: nowrap;
+            
+        
+        }
+
+        .main::-webkit-scrollbar{
+            display: none;
+        }
+
+        #line{
+            display: inline-block;
+            animation-name: scroll;
+            animation-duration: 30s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            white-space: nowrap;
+          
+        }
+       
+        #line h4{
+            display: inline-block;
+            font-size: 120px;
+            font-weight: 900;
+            margin-right: 12px;
+            transition: all linear 0.5s;
+            -webkit-text-stroke: 2px #95C11E;
+            color: transparent;
+           
+        }
+
+        #line h4:hover{
+            color: #95C11E;
+        }
+
+        @keyframes scroll {
+            from{
+                transform: translateX(0);
+            }
+            to{
+                transform: translateX(-100%);
+            }
+        }
+
+     
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div id="line">
+            <h4>TOPTRACER RANGE</h4>
+            <h4> GOLF LESSONS</h4>
+            <h4> ADVENTURE GOLF</h4>
+            <h4> COFFEE SHOP</h4>
+            <h4> LEAGUES</h4>
+        </div>
+        <div id="line">
+            <h4>TOPTRACER RANGE</h4>
+            <h4> GOLF LESSONS</h4>
+            <h4> ADVENTURE GOLF</h4>
+            <h4> COFFEE SHOP</h4>
+            <h4> LEAGUES</h4>
+        </div>
+    </div>
+    <div id="usehovr">
+        <h1>just hover</h1>
+        <i class="ri-fingerprint-2-line"></i>
+    </div>
+</body>
+</html>

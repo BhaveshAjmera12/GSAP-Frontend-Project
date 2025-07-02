@@ -1,0 +1,47 @@
+/* #usehovr{
+    width: 40vw;
+    height: 50vh;
+    background-color: transparent;
+    border-radius: 20px;
+    position: relative;
+    border: 1px solid #fff;
+     left: 30%;
+     transition: all ease 0.5s;
+
+}
+#usehovr>h1{
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    font-size: 70px;
+    font-weight: 900;
+    color: transparent;
+    text-transform: uppercase;
+    -webkit-text-stroke: 1px #95C11E;
+}
+
+#usehovr>i{
+    color: #fff;
+    position: absolute;
+    top: 45%;
+    transition: all ease 0.5s;
+    left: 45%;
+    font-size: 50px;
+    /* opacity: 0; */
+
+}
+
+#usehovr:hover{
+background-color: rebeccapurple;
+}
+
+#usehovr:hover h1{
+/* background-color: rebeccapurple; */
+color: #000;
+}
+
+#usehovr:hover i{
+/* background-color: rebeccapurple; */
+font-size: 60px;
+
+} */
